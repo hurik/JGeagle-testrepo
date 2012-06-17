@@ -5952,8 +5952,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <text x="91.44" y="68.58" size="1.778" layer="97">The LSB bit of the 7 bit address is determined by the logic level on pin AD0.</text>
 <text x="91.44" y="55.88" size="1.778" layer="97">** Optional external reference clock input. Connected to GND by default.</text>
 <text x="111.76" y="53.34" size="1.778" layer="97">Cut trace for external clock</text>
-<text x="251.46" y="182.88" size="1.778" layer="97">Changes to V11</text>
-<wire x1="251.46" y1="182.88" x2="274.32" y2="182.88" width="0.2032" layer="97"/>
 <wire x1="73.66" y1="101.6" x2="73.66" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="73.66" y1="91.44" x2="81.28" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="81.28" y1="91.44" x2="81.28" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
@@ -5961,19 +5959,6 @@ Standard 10-pin 0.1" header. Use with straight break away headers (SKU : PRT-001
 <wire x1="73.66" y1="101.6" x2="66.04" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="101.6" x2="66.04" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="91.44" x2="73.66" y2="91.44" width="0.2032" layer="97" style="shortdash"/>
-<text x="251.46" y="180.34" size="1.778" layer="97">SCL and SDA were switched on V10, fixed on V11</text>
-<text x="251.46" y="175.26" size="1.778" layer="97">C2 was mislabled as 10nF, should have been 2.2nF. Fixed in V11</text>
-<text x="251.46" y="177.8" size="1.778" layer="97">Broke out VLOGIC line</text>
-<text x="251.46" y="162.56" size="1.778" layer="97">BOM changes</text>
-<text x="251.46" y="152.4" size="1.778" layer="97">New Stencil</text>
-<text x="251.46" y="149.86" size="1.778" layer="97">YES</text>
-<text x="251.46" y="160.02" size="1.778" layer="97">YES</text>
-<text x="251.46" y="157.48" size="1.778" layer="97">C2 is now 2.2nF instead of 10nF</text>
-<wire x1="251.46" y1="162.56" x2="269.24" y2="162.56" width="0.2032" layer="97"/>
-<wire x1="251.46" y1="152.4" x2="269.24" y2="152.4" width="0.2032" layer="97"/>
-<text x="251.46" y="170.18" size="1.778" layer="97">Minor layout changes</text>
-<text x="251.46" y="172.72" size="1.778" layer="97">Added selectable jumpers to CLK, FSYNC and AD0</text>
-<text x="251.46" y="167.64" size="1.778" layer="97">Played around with IC footprint. Added 4 small tcream squares to middle pad. Rounded and elongated pads.</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
